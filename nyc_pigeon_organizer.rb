@@ -5,4 +5,6 @@ def nyc_pigeon_organizer(data)
       memo
     
   end
+  new_hash
 end
+
