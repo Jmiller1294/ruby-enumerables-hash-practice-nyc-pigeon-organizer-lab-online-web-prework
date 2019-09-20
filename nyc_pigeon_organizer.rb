@@ -1,10 +1,11 @@
 def nyc_pigeon_organizer(data)
- data.reduce() do |memo, (key, value)|
-     p :name[key]
+ data.reduce() do |name, (key, value)|
+     p name
+     p key
      p value
     
     
   end
-  p data
+   data
 end
 
