@@ -1,5 +1,5 @@
 def nyc_pigeon_organizer(data)
- new_hash = data.each do |memo,key|
+ new_hash = data.reduce do |memo,key|
      
      p memo[key]
       p memo
