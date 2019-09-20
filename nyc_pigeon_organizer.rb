@@ -5,6 +5,6 @@ def nyc_pigeon_organizer(data)
     
     
   end
-  data
+  p data
 end
 
